@@ -1,3 +1,3 @@
-public class Drain {
+public interface Drain {
 
 }

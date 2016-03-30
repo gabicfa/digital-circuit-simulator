@@ -1,3 +1,3 @@
-public class Source {
+public interface Source {
 
 }
