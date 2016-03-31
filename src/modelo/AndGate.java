@@ -1,6 +1,6 @@
 package modelo;
 
-public class AndGate extends LogicGate {
+public class AndGate extends LogicGate implements Source {
 	private InputPin pinA;
     private InputPin pinB;
     /* ...algum código... */

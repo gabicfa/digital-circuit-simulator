@@ -1,8 +1,6 @@
 package modelo;
 public interface Source {
 		
-	boolean getOutputValue(int index);
-	
-	
+	boolean getOutputValue(int index);	
 		
 }
