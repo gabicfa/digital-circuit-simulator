@@ -1,4 +1,4 @@
-package visao; //e agora?
+package visao; 
 
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
@@ -20,9 +20,13 @@ public class Visao {
 		not.setText("Not");
 		not.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JDialog d = new JDialog(frame, "Adele", true);
-				d.setLocationRelativeTo(frame);;
-				d.setVisible(true);
+				JDialog notWindow = new JDialog(frame, "Not", true);
+				notWindow.setLocationRelativeTo(frame);;
+				notWindow.setVisible(true);
+				notWindow.setSize(500,300); //bug não funciona
+				notWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+				notWindow.setVisible(true);
+				
 			}
 		});
 		JButton and = new JButton();
