@@ -4,12 +4,13 @@ import java.awt.FlowLayout;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class Visao {
 	public static void main(String s[]) {
 		JFrame frame = new JFrame ("Simulador de Circuito Digital");
-		JPanel panel = newJPanel();
+		JPanel panel = new JPanel();
 		panel.setLayout(new FlowLayout());;
 		JLabel label = new JLabel("Selecione a porta lógica que deseja simular");
 		JButton not = new JButton();
