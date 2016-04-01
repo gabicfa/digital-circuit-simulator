@@ -1,4 +1,5 @@
 package modelo;
+
 public class FullAdder extends LogicGate {
 	private InputPin pinA;
 	private InputPin pinB;
@@ -8,8 +9,6 @@ public class FullAdder extends LogicGate {
 	XorGate xor2 = new XorGate();
 	AndGate and1 = new AndGate();
 	AndGate and2 = new AndGate();
-
-
 	OrGate or = new OrGate();
 	
 	InputPin pinS1 = new InputPin();
@@ -42,6 +41,7 @@ public class FullAdder extends LogicGate {
 	}
 	
 	public boolean getOutputValue(int index) {
+		
 		if(index == 0){
 			xor1.setPinA(pinA);
 			xor1.setPinB(pinB);
@@ -67,12 +67,7 @@ public class FullAdder extends LogicGate {
 			
 			or.setPinA(pinS2);
 			or.setPinB(pinS3);
-			return or.getOutputValue(0);
-			
+			return or.getOutputValue(0);		
 		}
 	}
-	
-	
-	
-
 }
