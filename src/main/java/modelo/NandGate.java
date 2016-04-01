@@ -15,6 +15,8 @@ public class NandGate extends LogicGate implements Source {
 	public void setPinB(InputPin pinB) {
 		this.pinB = pinB;
 	}
+	
+	
 
 	public boolean getOutputValue(int index) {
 		
@@ -24,6 +26,7 @@ public class NandGate extends LogicGate implements Source {
 		pinS.setSource(and);
 		
 		not.setPin(pinS);
+
 		
 		return not.getOutputValue(0);		
 	}

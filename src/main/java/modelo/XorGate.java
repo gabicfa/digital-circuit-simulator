@@ -28,7 +28,7 @@ public class XorGate extends LogicGate {
 		pinS1.setSource(nand1);
 		
 		nand2.setPinA(pinA);
-		nand2.setPinB(pinS2);
+		nand2.setPinB(pinS1);
 		pinS2.setSource(nand2);
 		
 		nand3.setPinA(pinS1);
