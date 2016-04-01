@@ -1,8 +1,11 @@
 package visao; //e agora?
 
 import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.JButton;
+import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -15,6 +18,13 @@ public class Visao {
 		JLabel label = new JLabel("Selecione a porta lógica que deseja simular");
 		JButton not = new JButton();
 		not.setText("Not");
+		not.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JDialog d = new JDialog(frame, "Adele", true);
+				d.setLocationRelativeTo(frame);;
+				d.setVisible(true);
+			}
+		});
 		JButton and = new JButton();
 		and.setText("And");
 		JButton or = new JButton();
@@ -30,7 +40,8 @@ public class Visao {
 		frame.setSize(500, 300);
 		frame.setLocationRelativeTo(null);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setVisible(true);
-		
+		frame.setVisible(true);	
 	}
+	
+	
 }
