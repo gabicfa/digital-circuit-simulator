@@ -3,7 +3,8 @@ package modelo;
 public class HalfAdder extends LogicGate {
 	private InputPin pinA;
 	private InputPin pinB;
-	int index;
+	AndGate and = new AndGate();
+	XorGate xor = new XorGate();
 	
 	public InputPin getPinA() {
 		return pinA;
@@ -21,19 +22,20 @@ public class HalfAdder extends LogicGate {
 		this.pinB = pinB;
 	}
 	
-	public int getIndex() {
-		return index;
-	}
-	
-	public void setIndex(int index) {
-		this.index = index;
-	}
-	
 	public boolean getOutputValue(int index) {
-				
-	      //boolean sinalA = pinA.getSource().getOutputValue(pinA.getIndex());
-	      //boolean sinalB = pinB.getSource().getOutputValue(pinB.getIndex());
-	      //return sinalA && sinalB;
-	    }
+		
+		if(index==0){
+			xor.setPinA(pinA);
+			xor.setPinB(pinB);
+			return xor.getOutputValue(0);		
+		}
+		
+		else{
+			and.setPinA(pinA);
+			and.setPinB(pinB);
+			return and.getOutputValue(0);
+		}
+		
+	}
 
 }

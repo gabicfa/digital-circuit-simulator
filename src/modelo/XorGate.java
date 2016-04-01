@@ -1,5 +1,5 @@
 package modelo;
-public class Xor extends LogicGate {
+public class XorGate extends LogicGate {
 	private InputPin pinA;
     private InputPin pinB;
     
