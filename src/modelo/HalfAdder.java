@@ -3,6 +3,7 @@ package modelo;
 public class HalfAdder extends LogicGate {
 	private InputPin pinA;
 	private InputPin pinB;
+	
 	AndGate and = new AndGate();
 	XorGate xor = new XorGate();
 	
