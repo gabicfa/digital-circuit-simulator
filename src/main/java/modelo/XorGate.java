@@ -12,6 +12,12 @@ public class XorGate extends LogicGate {
 	InputPin pinS1 = new InputPin();
 	InputPin pinS2 = new InputPin();
 	InputPin pinS3 = new InputPin();
+	
+	
+	//public void Xor() {
+ 
+	//}
+
     
 	public void setPinA(InputPin pinA) {
 		this.pinA = pinA;
@@ -21,9 +27,8 @@ public class XorGate extends LogicGate {
 		this.pinB = pinB;
 	}
 
-    public boolean getOutputValue(int index) {
-    	
-    	nand1.setPinA(pinA);
+    public boolean getOutputValue(int index) {	
+       	nand1.setPinA(pinA);
     	nand1.setPinB(pinB);    	
 		pinS1.setSource(nand1);
 		
@@ -37,7 +42,6 @@ public class XorGate extends LogicGate {
 		
 		nand4.setPinA(pinS2);
 		nand4.setPinB(pinS3);
-		
 		return nand4.getOutputValue(0);
     }
 }
