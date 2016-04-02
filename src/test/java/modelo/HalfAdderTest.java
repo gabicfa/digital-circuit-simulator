@@ -41,7 +41,7 @@ public class HalfAdderTest {
 	}
 	
 	@Test	
-	public void testeOrFalseTrue(){
+	public void testeHalfAdderFalseTrue(){
 		
 		chave1.desligarBotao();
 		chave2.ligarBotao();
@@ -57,7 +57,7 @@ public class HalfAdderTest {
 	}
 	
 	@Test	
-	public void testeOrFalseFalse(){
+	public void testeHalfAdderFalseFalse(){
 		
 		chave1.desligarBotao();
 		chave2.desligarBotao();
@@ -70,7 +70,4 @@ public class HalfAdderTest {
 		
 		Assert.assertFalse(halfAdder.getOutputValue(0));
 		Assert.assertFalse(halfAdder.getOutputValue(1));
-	}
 	
-
-}
