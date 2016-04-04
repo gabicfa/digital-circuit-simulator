@@ -4,8 +4,7 @@ import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JPanel;
  
-public class NotGateDesenho extends JPanel{
-	
+public class NotGateDesenho extends GateDesenho{
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);

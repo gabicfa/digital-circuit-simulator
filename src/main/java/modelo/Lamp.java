@@ -7,4 +7,12 @@ public class Lamp implements Drain{
 		return pin;
 	}
 
+	public void setInputPin(InputPin pin) {
+		this.pin = pin;
+	}
+
+	public boolean getLampValue() {
+		return pin.getSource().getOutputValue(0);
+	}
+
 }

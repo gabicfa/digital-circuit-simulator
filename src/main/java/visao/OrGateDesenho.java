@@ -4,7 +4,7 @@ import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JPanel;
  
-public class OrGateDesenho extends JPanel{
+public class OrGateDesenho extends GateDesenho{
 	
     @Override
     protected void paintComponent(Graphics g) {

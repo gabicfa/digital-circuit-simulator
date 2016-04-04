@@ -4,7 +4,7 @@ import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JPanel;
  
-public class FullAdderDesenho extends JPanel{
+public class FullAdderDesenho extends GateDesenho{
 	
     @Override
     protected void paintComponent(Graphics g) {

@@ -4,10 +4,10 @@ import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JPanel;
  
-public class AndGateDesenho extends JPanel{
-	
+public class AndGateDesenho extends GateDesenho{ 
+
     @Override
-    protected void paintComponent(Graphics g) {
+    public void paintComponent(Graphics g) {
         super.paintComponent(g);
         g.setColor(Color.BLACK);
 		g.drawLine(50, 50, 100, 50);
