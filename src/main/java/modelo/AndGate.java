@@ -1,4 +1,4 @@
-package modelo;
+package main.java.modelo;
 
 public class AndGate extends LogicGate implements Source {
 	private InputPin pinA;
