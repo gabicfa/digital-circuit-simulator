@@ -1,6 +1,7 @@
 package test.java.modelo;
 
 import org.junit.Assert;
+import main.java.modelo. *;
 import org.junit.Test;
 
 public class HalfAdderTest {
@@ -70,4 +71,7 @@ public class HalfAdderTest {
 		
 		Assert.assertFalse(halfAdder.getOutputValue(0));
 		Assert.assertFalse(halfAdder.getOutputValue(1));
+	}
 	
+
+}

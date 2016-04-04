@@ -2,7 +2,7 @@ package test.java.modelo;
 
 import org.junit.Test;
 import org.junit.Assert;
-
+import main.java.modelo. *;
 public class AndGateTest {
 	
 	AndGate and = new AndGate();

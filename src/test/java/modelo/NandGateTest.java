@@ -2,6 +2,7 @@ package test.java.modelo;
 
 import org.junit.Assert;
 import org.junit.Test;
+import main.java.modelo. *;
 
 public class NandGateTest {
 	NandGate nand = new NandGate();
