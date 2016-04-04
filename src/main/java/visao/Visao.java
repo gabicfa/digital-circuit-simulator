@@ -36,7 +36,7 @@ public class Visao {
 				notB = new JCheckBox("B");
 				add(notA);
 				add(notB);
-				CheckBoxHandler notAction = new CheckBoxHandler;
+				CheckBoxHandler notAction = new CheckBoxHandler();
 				notA.addItemListener(notAction);
 				notB.addItemListener(notAction);
 				setVisible(true);
@@ -45,7 +45,7 @@ public class Visao {
 				}
 				
 			}
-		});
+		);
 		
 		JButton and = new JButton();
 		and.setText("And");
@@ -188,7 +188,7 @@ public class Visao {
 				halfAdderA.addItemListener(halfAdderAction);
 				halfAdderB.addItemListener(halfAdderAction);
 				setVisible(True);
-				
+			
 				
 			}
 		});
@@ -208,5 +208,5 @@ public class Visao {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setVisible(true);	
 	}
-	
+}
 	
