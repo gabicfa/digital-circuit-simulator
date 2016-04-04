@@ -1,4 +1,4 @@
-package visao;
+package main.java.visao;
 
 import java.awt.Color;
 import java.awt.Graphics;

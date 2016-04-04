@@ -1,4 +1,4 @@
-package modelo;
+package main.java.modelo;
 public class Switch implements Source {
 	private boolean botao;
 	

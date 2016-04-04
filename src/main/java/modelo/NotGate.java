@@ -1,4 +1,4 @@
-package modelo;
+package main.java.modelo;
 
 public class NotGate extends LogicGate{
 	private InputPin pin;

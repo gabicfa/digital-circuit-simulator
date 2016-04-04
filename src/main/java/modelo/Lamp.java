@@ -1,4 +1,4 @@
-package modelo;
+package main.java.modelo;
 
 public class Lamp implements Drain{
 	private InputPin pin;

@@ -1,4 +1,4 @@
-package modelo;
+package main.java.modelo;
 
 public class LogicGate implements Source, Drain{
 	private InputPin pin;

@@ -1,4 +1,4 @@
-package modelo;
+package main.java.modelo;
 
 public class HalfAdder extends LogicGate {
 	private InputPin pinA;

@@ -1,4 +1,4 @@
-package visao;
+package main.java.visao;
 
 import java.awt.Graphics;
 import javax.swing.JPanel;
