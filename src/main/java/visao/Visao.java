@@ -29,17 +29,7 @@ public class Visao {
 				notWindow.setSize(500,300); //bug não funciona
 				notWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				notWindow.setVisible(true);
-				
 			
-				private JCheckBox notA, notB;
-				notA = new JCheckBox("A");
-				notB = new JCheckBox("B");
-				add(notA);
-				add(notB);
-				CheckBoxHandler notAction = new CheckBoxHandler();
-				notA.addItemListener(notAction);
-				notB.addItemListener(notAction);
-				setVisible(true);
 				
 			
 				}
@@ -57,15 +47,7 @@ public class Visao {
 				andWindow.setSize(500,300); //bug não funciona
 				andWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				andWindow.setVisible(true);
-				private JCheckBox andA, andB;
-				andA = new JCheckBox("A");
-				andB = new JCheckBox("B");
-				add(andA);
-				add(andB);
-				CheckBoxHandler andAction = new CheckBoxHandler;
-				andA.addItemListener(andAction);
-				andB.addItemListener(andAction);
-				setVisible(true);
+				
 				
 						}
 		});
@@ -80,15 +62,7 @@ public class Visao {
 				orWindow.setSize(500,300); //bug não funciona
 				orWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				orWindow.setVisible(true);
-				private JCheckBox orA, orB;
-				orA = new JCheckBox("A");
-				orB = new JCheckBox("B");
-				add(orA);
-				add(orB);
-				CheckBoxHandler orAction = new CheckBoxHandler;
-				orA.addItemListener(orAction);
-				orB.addItemListener(orAction);
-				setVisible(true);
+				
 				
 			
 			}
@@ -104,15 +78,7 @@ public class Visao {
 				xorWindow.setSize(500,300); //bug não funciona
 				xorWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				xorWindow.setVisible(true);
-				private JCheckBox xorA, xorB;
-				xorA = new JCheckBox("A");
-				xorB = new JCheckBox("B");
-				add(xorA);
-				add(xorB);
-				CheckBoxHandler xorAction = new CheckBoxHandler;
-				xorA.addItemListener(xorAction);
-				xorB.addItemListener(xorAction);
-				setVisible(true);
+				
 							
 			}
 		});
@@ -127,16 +93,7 @@ public class Visao {
 				nandWindow.setSize(500,300); //bug não funciona
 				nandWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				nandWindow.setVisible(true);
-				private JCheckBox nandA, nandB;
-				nandA = new JCheckBox("A");
-				nandB = new JCheckBox("B");
-				add(nandA);
-				add(nandB);
-				CheckBoxHandler nandAction = new CheckBoxHandler;
-				nandA.addItemListener(nandAction);
-				nandB.addItemListener(nandAction);
-				setVisible(true);
-				
+								
 							
 			}
 		});
@@ -151,19 +108,7 @@ public class Visao {
 				fullAdderWindow.setSize(500,300); //bug não funciona
 				fullAdderWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				fullAdderWindow.setVisible(true);
-				private JCheckBox fullAdderA, fullAdderB, fullAdderC;
-				fullAdderA = new JCheckBox("A");
-				fullAdderB = new JCheckBox("B");
-				fullAdderC = new JCheckBox("C");
-				add(fullAdderA);
-				add(fullAdderB);
-				add(fullAdderC);
-				CheckBoxHandler fullAdderAction = new CheckBoxHandler;
-				fullAdderA.addItemListener(fullAdderAction);
-				fullAdderB.addItemListener(fullAdderAction);
-				fullAdderC.addItemListener(fullAdderAction);
-				setVisible(true);
-				
+								
 			
 				
 			}
@@ -179,16 +124,7 @@ public class Visao {
 				halfAdderWindow.setSize(500,300); //bug não funciona
 				halfAdderWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				halfAdderWindow.setVisible(true);
-				private JCheckBox halfAdderA, halfAdderB;
-				halfAdderA = new JCheckBox("A");
-				halfAdderB = new JCheckBox("B");
-				add(halfAdderA);
-				add(halfAdderB);
-				CheckBoxHandler halfAdderAction = new CheckBoxHandler;
-				halfAdderA.addItemListener(halfAdderAction);
-				halfAdderB.addItemListener(halfAdderAction);
-				setVisible(True);
-			
+							
 				
 			}
 		});
