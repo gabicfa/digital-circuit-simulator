@@ -41,18 +41,7 @@ public class Visao {
 				notB.addItemListener(notAction);
 				setVisible(true);
 				
-				public class NotGateDesenho extends GateDesenho{
-				    @Override
-				    protected void paintComponent(Graphics g) {
-				        super.paintComponent(g);
-				        g.setColor(Color.BLACK);
-						g.drawLine(290, 140, 350, 170);
-						g.drawLine(290, 200, 350, 170);
-						g.drawLine(290, 140, 290, 200);
-						g.drawLine(240, 170, 290, 170);
-						g.drawLine(360, 170, 400, 170);
-						g.drawArc(350, 165, 10, 10, -20, 360);
-				    }
+			
 				}
 				
 			}
@@ -78,22 +67,7 @@ public class Visao {
 				andB.addItemListener(andAction);
 				setVisible(true);
 				
-				public class AndGateDesenho extends GateDesenho{ 
-
-				    @Override
-				    public void paintComponent(Graphics g) {
-				        super.paintComponent(g);
-				        g.setColor(Color.BLACK);
-				        int x = 160;
-				        int y = 80;
-						g.drawLine(50+x, 50+y, 100+x, 50+y);
-						g.drawLine(50+x, 100+y, 100+x, 100+y);
-						g.drawLine(100+x, 20+y, 100+x, 120+y);
-						g.drawLine(160+x, 70+y, 220+x, 70+y);
-						g.drawArc(60+x, 20+y, 100, 100, -100, 200);
-				    }
-				}
-			}
+						}
 		});
 		
 		JButton or = new JButton();
@@ -116,20 +90,7 @@ public class Visao {
 				orB.addItemListener(orAction);
 				setVisible(true);
 				
-				public class OrGateDesenho extends GateDesenho{
-			    @Override
-			    protected void paintComponent(Graphics g) {
-			        int x = 160;
-			        int y = 80;
-			        super.paintComponent(g);
-			        g.setColor(Color.BLACK);
-					g.drawLine(50+x, 50+y, 97+x, 50+y);
-					g.drawLine(50+x, 100+y, 97+x, 100+y);
-					g.drawLine(195+x, 75+y, 240+x, 75+y);
-					g.drawArc(70+x, 25+y, 30, 110, -58, 135);
-					g.drawArc(25+x, 25+y, 170, 100, -100, 205);
-			    }
-			}
+			
 			}
 		});
 		
@@ -152,22 +113,7 @@ public class Visao {
 				xorA.addItemListener(xorAction);
 				xorB.addItemListener(xorAction);
 				setVisible(true);
-				public class XorGateDesenho extends GateDesenho{
-					
-				    @Override
-				    protected void paintComponent(Graphics g) {
-				        super.paintComponent(g);
-				        int x = 160;
-				        int y = 80;
-				        g.setColor(Color.BLACK);
-						g.drawLine(50+x, 50+y, 97+x, 50+y);
-						g.drawLine(50+x, 100+y, 97+x, 100+y);
-						g.drawLine(195+x, 75+y, 240+x, 75+y);
-						g.drawArc(70+x, 25+y, 30, 110, -58, 135);
-						g.drawArc(65+x, 25+y, 25, 110, -58, 135);
-						g.drawArc(25+x, 25+y, 170, 100, -100, 205);    }
-				}
-				
+							
 			}
 		});
 		
@@ -191,22 +137,7 @@ public class Visao {
 				nandB.addItemListener(nandAction);
 				setVisible(true);
 				
-				public class NandGateDesenho extends GateDesenho{
-					
-				    public void paintComponent(Graphics g) {
-				        super.paintComponent(g);
-				        g.setColor(Color.BLACK);
-				        int x = 160;
-				        int y = 80;
-						g.drawLine(50+x, 50+y, 100+x, 50+y);
-						g.drawLine(50+x, 100+y, 100+x, 100+y);
-						g.drawLine(100+x, 20+y, 100+x, 120+y);
-						g.drawLine(180+x, 70+y, 220+x, 70+y);
-						g.drawArc(160+x, 60+y, 20, 20, -30, 360);
-						g.drawArc(60+x, 20+y, 100, 100, -100, 200);
-				    }
-				}
-				
+							
 			}
 		});
 		
@@ -233,25 +164,7 @@ public class Visao {
 				fullAdderC.addItemListener(fullAdderAction);
 				setVisible(true);
 				
-				public class FullAdderDesenho extends GateDesenho{
-				
-				    @Override
-				    protected void paintComponent(Graphics g) {
-				        super.paintComponent(g);
-				        g.setColor(Color.BLACK);
-				        int x = 160;
-				        int y = 80;
-						g.drawLine(45+x, 50+y, 90+x, 50+y);
-						g.drawLine(45+x, 90+y, 90+x, 90+y);
-						g.drawLine(45+x, 130+y, 90+x, 130+y);
-						g.drawLine(90+x,30+y,90+x,150+y);
-						g.drawLine(90+x, 30+y, 180+x, 30+y);
-						g.drawLine(90+x, 150+y, 180+x, 150+y);
-						g.drawLine(180+x, 30+y, 180+x,150+y);
-						g.drawLine(180+x, 60+y, 225+x, 60+y);
-						g.drawLine(180+x, 120+y, 225+x, 120+y);
-				    }
-				}
+			
 				
 			}
 		});
@@ -276,24 +189,6 @@ public class Visao {
 				halfAdderB.addItemListener(halfAdderAction);
 				setVisible(True);
 				
-				public class HalfAdderDesenho extends GateDesenho{
-					
-				    @Override
-				    protected void paintComponent(Graphics g) {
-				        int x = 160;
-				        int y = 80;
-				        super.paintComponent(g);
-				        g.setColor(Color.BLACK);
-						g.drawLine(45+x, 60+y, 90+x, 60+y);
-						g.drawLine(45+x, 120+y, 90+x, 120+y);
-						g.drawLine(90+x,30+y,90+x,150+y);
-						g.drawLine(90+x, 30+y, 180+x, 30+y);
-						g.drawLine(90+x, 150+y, 180+x, 150+y);
-						g.drawLine(180+x, 30+y, 180+x,150+y);
-						g.drawLine(180+x, 60+y, 225+x, 60+y);
-						g.drawLine(180+x, 120+y, 225+x, 120+y);
-				    }
-				}
 				
 			}
 		});
@@ -315,4 +210,3 @@ public class Visao {
 	}
 	
 	
-}
