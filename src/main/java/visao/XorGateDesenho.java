@@ -9,12 +9,13 @@ public class XorGateDesenho extends GateDesenho{
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
+        int x = 160;
+        int y = 80;
         g.setColor(Color.BLACK);
-		g.drawLine(50, 50, 97, 50);
-		g.drawLine(50, 100, 97, 100);
-		g.drawLine(195, 75, 250, 75);
-		g.drawArc(70, 25, 30, 110, -58, 135);
-		g.drawArc(65, 25, 25, 110, -58, 135);
-		g.drawArc(25, 25, 170, 100, -100, 205);
-    }
+		g.drawLine(50+x, 50+y, 97+x, 50+y);
+		g.drawLine(50+x, 100+y, 97+x, 100+y);
+		g.drawLine(195+x, 75+y, 240+x, 75+y);
+		g.drawArc(70+x, 25+y, 30, 110, -58, 135);
+		g.drawArc(65+x, 25+y, 25, 110, -58, 135);
+		g.drawArc(25+x, 25+y, 170, 100, -100, 205);    }
 }

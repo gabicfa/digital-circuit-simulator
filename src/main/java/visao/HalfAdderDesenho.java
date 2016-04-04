@@ -8,15 +8,17 @@ public class HalfAdderDesenho extends GateDesenho{
 	
     @Override
     protected void paintComponent(Graphics g) {
+        int x = 160;
+        int y = 80;
         super.paintComponent(g);
         g.setColor(Color.BLACK);
-		g.drawLine(45, 60, 90, 60);
-		g.drawLine(45, 120, 90, 120);
-		g.drawLine(90,30,90,150);
-		g.drawLine(90, 30, 180, 30);
-		g.drawLine(90, 150, 180, 150);
-		g.drawLine(180, 30, 180,150);
-		g.drawLine(180, 60, 225, 60);
-		g.drawLine(180, 120, 225, 120);
+		g.drawLine(45+x, 60+y, 90+x, 60+y);
+		g.drawLine(45+x, 120+y, 90+x, 120+y);
+		g.drawLine(90+x,30+y,90+x,150+y);
+		g.drawLine(90+x, 30+y, 180+x, 30+y);
+		g.drawLine(90+x, 150+y, 180+x, 150+y);
+		g.drawLine(180+x, 30+y, 180+x,150+y);
+		g.drawLine(180+x, 60+y, 225+x, 60+y);
+		g.drawLine(180+x, 120+y, 225+x, 120+y);
     }
 }

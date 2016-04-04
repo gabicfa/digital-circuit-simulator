@@ -9,11 +9,11 @@ public class NotGateDesenho extends GateDesenho{
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
         g.setColor(Color.BLACK);
-		g.drawLine(100, 40, 160, 70);
-		g.drawLine(100, 100, 160, 70);
-		g.drawLine(100, 40, 100, 100);
-		g.drawLine(50, 70, 100, 70);
-		g.drawLine(170, 70, 210, 70);
-		g.drawArc(160, 65, 10, 10, -20, 360);
+		g.drawLine(290, 140, 350, 170);
+		g.drawLine(290, 200, 350, 170);
+		g.drawLine(290, 140, 290, 200);
+		g.drawLine(240, 170, 290, 170);
+		g.drawLine(360, 170, 400, 170);
+		g.drawArc(350, 165, 10, 10, -20, 360);
     }
 }
