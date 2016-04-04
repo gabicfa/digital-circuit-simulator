@@ -29,11 +29,16 @@ public class Visao {
 				notWindow.setSize(500,300); //bug não funciona
 				notWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				notWindow.setVisible(true);
+				
+			
 				private JCheckBox notA, notB;
 				notA = new JCheckBox("A");
 				notB = new JCheckBox("B");
 				add(notA);
 				add(notB);
+				CheckBoxHandler notAction = new CheckBoxHandler;
+				notA.addItemListener(notAction);
+				notB.addItemListener(notAction);
 				setVisible(true);
 				
 				public class NotGateDesenho extends GateDesenho{
@@ -68,6 +73,9 @@ public class Visao {
 				andB = new JCheckBox("B");
 				add(andA);
 				add(andB);
+				CheckBoxHandler andAction = new CheckBoxHandler;
+				andA.addItemListener(andAction);
+				andB.addItemListener(andAction);
 				setVisible(true);
 				
 				public class AndGateDesenho extends GateDesenho{ 
@@ -103,6 +111,9 @@ public class Visao {
 				orB = new JCheckBox("B");
 				add(orA);
 				add(orB);
+				CheckBoxHandler orAction = new CheckBoxHandler;
+				orA.addItemListener(orAction);
+				orB.addItemListener(orAction);
 				setVisible(true);
 				
 				public class OrGateDesenho extends GateDesenho{
@@ -137,6 +148,9 @@ public class Visao {
 				xorB = new JCheckBox("B");
 				add(xorA);
 				add(xorB);
+				CheckBoxHandler xorAction = new CheckBoxHandler;
+				xorA.addItemListener(xorAction);
+				xorB.addItemListener(xorAction);
 				setVisible(true);
 				public class XorGateDesenho extends GateDesenho{
 					
@@ -172,6 +186,9 @@ public class Visao {
 				nandB = new JCheckBox("B");
 				add(nandA);
 				add(nandB);
+				CheckBoxHandler nandAction = new CheckBoxHandler;
+				nandA.addItemListener(nandAction);
+				nandB.addItemListener(nandAction);
 				setVisible(true);
 				
 				public class NandGateDesenho extends GateDesenho{
@@ -210,6 +227,10 @@ public class Visao {
 				add(fullAdderA);
 				add(fullAdderB);
 				add(fullAdderC);
+				CheckBoxHandler fullAdderAction = new CheckBoxHandler;
+				fullAdderA.addItemListener(fullAdderAction);
+				fullAdderB.addItemListener(fullAdderAction);
+				fullAdderC.addItemListener(fullAdderAction);
 				setVisible(true);
 				
 				public class FullAdderDesenho extends GateDesenho{
@@ -250,6 +271,9 @@ public class Visao {
 				halfAdderB = new JCheckBox("B");
 				add(halfAdderA);
 				add(halfAdderB);
+				CheckBoxHandler halfAdderAction = new CheckBoxHandler;
+				halfAdderA.addItemListener(halfAdderAction);
+				halfAdderB.addItemListener(halfAdderAction);
 				setVisible(True);
 				
 				public class HalfAdderDesenho extends GateDesenho{
