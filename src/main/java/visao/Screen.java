@@ -15,7 +15,6 @@ public class Screen extends JFrame
         super("Simulador");
         
         Main comboPanel = new Main();
-        //Logica boxPanel = new Logica();
         
         String[] shapeItems = {
             "And", "Or", "Xor", "Nand", "FullAdder","HalfAdder", "Not"
@@ -54,7 +53,7 @@ public class Screen extends JFrame
         });
 
         JPanel panel = new JPanel();
-        JLabel jlabel = new JLabel("This is a label");
+        JTextArea texto = new JTextArea("texto");
         panel.add(shapeBox);
         comboPanel.setLayout(null);
         pinS.setBounds(450, 120, 80, 20);
@@ -62,7 +61,7 @@ public class Screen extends JFrame
         pin1.setBounds(100, 110,80,20);
         pin2.setBounds(100, 140,80,20);
         pin3.setBounds(100, 170,80,20);
-        comboPanel.add(jlabel);
+        comboPanel.add(texto);
         comboPanel.add(pinS);
         comboPanel.add(pinC);
         comboPanel.add(pin1);
