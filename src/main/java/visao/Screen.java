@@ -1,16 +1,14 @@
 package main.java.visao;
-import java.awt.*;
 import java.awt.event.*;
-import java.awt.geom.*;
-import java.util.Random;
 import javax.swing.*;
 import javax.swing.JCheckBox;
-import org.junit.Assert;
 import main.java.modelo.*;
 
 public class Screen extends JFrame
 {
-    private static String item;
+
+	private static final long serialVersionUID = 1L;
+	private static String item;
     private InputPin pinA;
     private InputPin pinB;
     private InputPin pinD;
@@ -25,7 +23,7 @@ public class Screen extends JFrame
             "And", "Or", "Xor", "Nand", "FullAdder","HalfAdder", "Not"
         };
         
-        JComboBox shapeBox = new JComboBox(shapeItems);
+        JComboBox<String> shapeBox = new JComboBox<>(shapeItems);
         JCheckBox pin1  = new JCheckBox("Pin1");
         JCheckBox pin2 = new JCheckBox("Pin2");
         JCheckBox pin3 = new JCheckBox("Pin3");
