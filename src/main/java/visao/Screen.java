@@ -333,59 +333,7 @@ public class Screen extends JFrame
 				 pinB.setSource(switch2);
 				 pinD.setSource(switch3);
  				 switch3.setBotao(pin3.isSelected());
-		                   
- 				 if(item.equals("And")){
-					pinA.setSource(switch1);
-					pinB.setSource(switch2);
-					
-					and.setPinA(pinA);
-					and.setPinB(pinB);
-					pinL1.setSource(and);
-						
-					pinS.setEnabled(true);
-					pinS.setSelected(lamp1.getLampValue());
-					pinS.setEnabled(false);
-				}
-		                    
-                if(item.equals("Or")){
-                	pinA.setSource(switch1);
-    				pinB.setSource(switch2);
-    				
-    				or.setPinA(pinA);
-    				or.setPinB(pinB);
-    				pinL1.setSource(or);
-    				
-    				pinS.setEnabled(true);
-    				pinS.setSelected(lamp1.getLampValue());
-    				pinS.setEnabled(false);
-                }
-                
-                if(item.equals("Xor")){
-    				pinA.setSource(switch1);
-    				pinB.setSource(switch2);
-    				
-    				xor.setPinA(pinA);
-    				xor.setPinB(pinB);
-    				pinL1.setSource(xor);
-    				
-    				pinS.setEnabled(true);
-    				pinS.setSelected(lamp1.getLampValue());
-    				pinS.setEnabled(false);
-                }
-                
-                if(item.equals("Nand")){
-    				pinA.setSource(switch1);
-    				pinB.setSource(switch2);
-    				
-    				nand.setPinA(pinA);
-    				nand.setPinB(pinB);
-    				pinL1.setSource(nand);
-    				
-    				pinS.setEnabled(true);
-    				pinS.setSelected(lamp1.getLampValue());
-    				pinS.setEnabled(false);
-                }
-                
+		                  
                 if(item.equals("FullAdder")){
 
             		pinA.setSource(switch1);
@@ -420,19 +368,6 @@ public class Screen extends JFrame
     				pinC.setSelected(halfAdder.getOutputValue(1));
     				pinS.setEnabled(false);
     				pinC.setEnabled(false);
-                }
-                
-                if(item.equals("Not")){
-
-    				pinA.setSource(switch1);
-    				pinB.setSource(switch2);
-    				
-    				not.setPin(pinA);
-    				pinL1.setSource(not);
-    				
-    				pinS.setEnabled(true);
-    				pinS.setSelected(lamp1.getLampValue());
-    				pinS.setEnabled(false);
                 }
             }                          
 		});
