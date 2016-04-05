@@ -377,9 +377,11 @@ public class Screen extends JFrame
         comboPanel.add(pin1);
         comboPanel.add(pin2);
         comboPanel.add(pin3);
+        
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
         getContentPane().add(comboPanel, "Center");
         getContentPane().add(panel, "South");
+        
         setSize(600,400);
         setLocation(300,150);
         setVisible(true);
