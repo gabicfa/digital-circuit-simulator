@@ -1,13 +1,12 @@
 package main.java.visao;
 import java.awt.*;
-import java.awt.event.*;
-import java.awt.geom.*;
-import java.util.Random;
 import javax.swing.*;
 
 class Main extends JPanel
     {
-        static final int AND = 0, OR = 1, XOR = 2, NAND = 3, FULLADDER = 4, HALFADDER=5, NOT = 6;
+	private static final long serialVersionUID = 1L;
+
+		static final int AND = 0, OR = 1, XOR = 2, NAND = 3, FULLADDER = 4, HALFADDER=5, NOT = 6;
         
         AndGateDesenho andGate = new AndGateDesenho ();
         OrGateDesenho orGate = new OrGateDesenho ();

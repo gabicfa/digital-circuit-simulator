@@ -5,7 +5,9 @@ import javax.swing.JPanel;
  
 public class GateDesenho extends JPanel{
 
-    protected void paintComponent(Graphics g) {
+	private static final long serialVersionUID = 1L;
+
+	protected void paintComponent(Graphics g) {
         super.paintComponent(g);        
     }
 }

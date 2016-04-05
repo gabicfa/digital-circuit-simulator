@@ -2,11 +2,12 @@ package main.java.visao;
 
 import java.awt.Color;
 import java.awt.Graphics;
-import javax.swing.JPanel;
  
 public class HalfAdderDesenho extends GateDesenho{
-	
-    @Override
+
+	private static final long serialVersionUID = 1L;
+
+	@Override
     protected void paintComponent(Graphics g) {
         int x = 160;
         int y = 80;

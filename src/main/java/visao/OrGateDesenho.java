@@ -2,10 +2,10 @@ package main.java.visao;
 
 import java.awt.Color;
 import java.awt.Graphics;
-import javax.swing.JPanel;
  
 public class OrGateDesenho extends GateDesenho{
-	
+	private static final long serialVersionUID = 1L;
+
     @Override
     protected void paintComponent(Graphics g) {
         int x = 160;

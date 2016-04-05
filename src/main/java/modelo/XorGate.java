@@ -12,12 +12,6 @@ public class XorGate extends LogicGate {
 	InputPin pinS1 = new InputPin();
 	InputPin pinS2 = new InputPin();
 	InputPin pinS3 = new InputPin();
-	
-	
-	//public void Xor() {
- 
-	//}
-
     
 	public void setPinA(InputPin pinA) {
 		this.pinA = pinA;
