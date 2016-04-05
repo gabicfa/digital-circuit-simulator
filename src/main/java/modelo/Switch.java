@@ -14,4 +14,9 @@ public class Switch implements Source {
 		return botao;
 	}
 	
+	public boolean setBotao(boolean x){
+		botao = x;
+		return botao;
+	}
+	
 }
