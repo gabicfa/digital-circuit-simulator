@@ -1,4 +1,4 @@
-# digital-circuit-simulator
+# Digital circuit simulator
 
 This project aims to implement a simulator in which the user can select a digital circuit and visualize its output for each possible input. The system architecture must use the architectural pattern known as Model-View-Controller. In particular, it uses three packages:
 
@@ -11,3 +11,5 @@ This project aims to implement a simulator in which the user can select a digita
 ## model
 
 <img src="img/img1.png" width="450" height="350">
+
+Created at 2016.1
